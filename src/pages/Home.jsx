@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import MovieCard from "../components/MovieCard";
 
-const API_KEY = "fbf64e47bbe024cbba9c790a3c901416";
+const API_KEY = "TMDB_API_KEY";
 
 function Home() {
   const [movies, setMovies] = useState([]);
