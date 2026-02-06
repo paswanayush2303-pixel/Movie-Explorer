@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 
-const API_KEY = "bf64e47bbe024cbba9c790a3c901416";
+const API_KEY = import.meta.env.VITE_TMDB_API_KEY;
 
 function MovieDetails() {
   const { id } = useParams();
