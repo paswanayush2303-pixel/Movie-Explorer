@@ -4,7 +4,7 @@ import MovieDetails from "./pages/MovieDetails";
 
 function App() {
   return (
-    <HashRouter basename="/Movie-explorer/">
+    <HashRouter basename="/Movie-Explorer/">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/movie/:id" element={<MovieDetails />} />
